@@ -18,26 +18,20 @@ const Index = () => {
         </div>
 
         {/* Headline */}
-        <h1 className="text-5xl md:text-6xl font-bebas text-center text-navy mb-2 leading-none animate-fade-in [animation-delay:100ms] tracking-wide">
-          MALE ENHANCEMENT
+        <h1 className="text-4xl md:text-5xl font-bold text-center text-foreground mb-4 leading-tight animate-fade-in [animation-delay:100ms]">
+          Boost Your Energy & Confidence
         </h1>
-        <h2 className="text-5xl md:text-6xl font-bebas text-center text-magenta mb-4 leading-none animate-fade-in [animation-delay:150ms] tracking-wide">
-          GET MAXIMUM
-        </h2>
-        <h3 className="text-4xl md:text-5xl font-bebas text-center text-navy mb-6 leading-none animate-fade-in [animation-delay:200ms] tracking-wide">
-          SEXUAL BENEFITS
-        </h3>
 
         {/* Subheadline */}
-        <p className="text-lg text-center font-semibold text-navy mb-8 animate-fade-in [animation-delay:250ms] max-w-sm mx-auto">
-          Natural, Safe & Effective!
+        <p className="text-lg text-center text-muted-foreground mb-8 animate-fade-in [animation-delay:200ms] max-w-sm mx-auto">
+          Natuurlijke ondersteuning voor vitaliteit en prestaties. Klinisch bewezen L-Arginine formule.
         </p>
 
         {/* CTA Buttons */}
         <div className="space-y-4 mb-8 animate-fade-in [animation-delay:300ms]">
           <Button 
             size="lg" 
-            className="w-full h-14 text-lg font-bold bg-primary hover:bg-primary/90 text-primary-foreground shadow-cta hover:shadow-cta-hover transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] uppercase"
+            className="w-full h-14 text-lg font-semibold bg-primary hover:bg-primary/90 text-primary-foreground shadow-cta hover:shadow-cta-hover transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]"
             onClick={() => window.open('https://your-affiliate-link.com', '_blank')}
           >
             Buy Now
@@ -46,7 +40,7 @@ const Index = () => {
           <Button 
             size="lg" 
             variant="outline"
-            className="w-full h-14 text-lg font-bold border-2 border-navy/30 hover:border-primary hover:bg-white transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] bg-white text-navy uppercase"
+            className="w-full h-14 text-lg font-semibold border-2 border-foreground/20 hover:border-primary hover:bg-primary/5 transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]"
             onClick={() => window.open('https://your-prelander.com', '_blank')}
           >
             Learn More
@@ -54,7 +48,7 @@ const Index = () => {
         </div>
 
         {/* Trust Signals */}
-        <div className="flex flex-col gap-3 text-center text-sm text-trust font-medium animate-fade-in [animation-delay:400ms]">
+        <div className="flex flex-col gap-3 text-center text-sm text-trust animate-fade-in [animation-delay:400ms]">
           <div className="flex items-center justify-center gap-6 flex-wrap">
             <div className="flex items-center gap-2">
               <Lock className="w-4 h-4" />
