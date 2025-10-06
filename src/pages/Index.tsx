@@ -31,7 +31,7 @@ const Index = () => {
             className="w-full h-14 text-lg font-bold bg-primary hover:bg-primary/90 text-primary-foreground shadow-cta hover:shadow-hover transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] border-2 border-primary/20"
             onClick={() => window.open('https://your-affiliate-link.com', '_blank')}
           >
-            🚀 Buy Now & Start Today!
+            🚀 Buy Now
           </Button>
           
           <Button 
