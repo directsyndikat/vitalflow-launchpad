@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import productImage from "@/assets/hero-abstract.png";
+import productImage from "@/assets/vydox-product.png";
 import { Shield, Lock, RotateCcw } from "lucide-react";
 
 const Index = () => {
@@ -11,7 +11,7 @@ const Index = () => {
           <div className="relative">
             <img 
               src={productImage} 
-              alt="Natural vitality and wellness support" 
+              alt="Vydox Male Virility Solution" 
               className="w-64 h-auto drop-shadow-2xl"
             />
           </div>
