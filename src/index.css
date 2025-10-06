@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 98%;
+    --background: 184 38% 85%;
     --foreground: 220 20% 15%;
 
     --card: 0 0% 100%;
@@ -17,16 +17,16 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 220 20% 15%;
 
-    --primary: 16 90% 58%;
+    --primary: 24 89% 67%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 142 60% 45%;
+    --secondary: 200 65% 50%;
     --secondary-foreground: 0 0% 100%;
 
     --muted: 220 13% 91%;
     --muted-foreground: 220 10% 50%;
 
-    --accent: 16 90% 58%;
+    --accent: 24 89% 67%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -34,16 +34,21 @@ All colors MUST be HSL.
 
     --border: 220 13% 91%;
     --input: 220 13% 91%;
-    --ring: 16 90% 58%;
+    --ring: 24 89% 67%;
 
     --radius: 0.75rem;
 
     --trust: 220 10% 50%;
     
+    /* Gradient background */
+    --gradient-bg: linear-gradient(180deg, hsl(184 38% 85%) 0%, hsl(0 0% 98%) 100%);
+    
     /* Custom animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    --shadow-cta: 0 10px 30px -10px hsl(16 90% 58% / 0.4);
-    --shadow-hover: 0 15px 40px -10px hsl(16 90% 58% / 0.5);
+    --shadow-cta: 0 10px 30px -10px hsl(24 89% 67% / 0.3);
+    --shadow-hover: 0 15px 40px -10px hsl(24 89% 67% / 0.4);
+    --shadow-secondary: 0 10px 30px -10px hsl(200 65% 50% / 0.3);
+    --shadow-secondary-hover: 0 15px 40px -10px hsl(200 65% 50% / 0.4);
   }
 }
 
